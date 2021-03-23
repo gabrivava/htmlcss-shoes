@@ -3,14 +3,16 @@
     margin: 0;
     padding: 0;
 }
+/* NAV CSS */
 .numeri {
     border-radius: 50%;
     height: 40px;
     width: 40px;
-    background-color: aqua;
+    background-color: white;
     display: inline-block;
     position: relative;
     margin: 20px 10px;
+    box-shadow: 1px 1px 6px;
 }
 .numeri > h3 {
     position: absolute;
@@ -18,7 +20,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+.top_right {
+    position: fixed;
+    right: 0;
+}
+/* / NAV CSS */
 
 
 
